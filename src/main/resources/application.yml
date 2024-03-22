@@ -16,8 +16,8 @@ spring:
       client:
         registration:
           google:
-            clientId:
-            clientSecret: 
+            clientId: 562415138101-78vh9ehulqhg8cm3hqmpf7o7t2shr9i5.apps.googleusercontent.com
+            clientSecret: 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
             redirectUri: "{baseUrl}/login/oauth2/code/{registrationId}"
             authorizationUri: "https://accounts.google.com/o/oauth2/v2/auth"
             tokenUri: "https://www.googleapis.com/oauth2/v4/token"
